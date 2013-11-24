@@ -1,6 +1,7 @@
 Skin::Application.routes.draw do
-  get "derm/home"
-  match '/home', to: 'derm#home', via: 'get'
+  root  'derm#home'
+  
+  
   match '/skincancer', to: 'derm#skincancer', via: 'get'
   match '/mohssurgery', to: 'derm#mohssurgery', via: 'get'
   match '/acne', to: 'derm#acne', via: 'get'
