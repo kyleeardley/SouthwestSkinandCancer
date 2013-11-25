@@ -1,7 +1,5 @@
 Skin::Application.routes.draw do
   root  'derm#home'
-  
-  
   match '/skincancer', to: 'derm#skincancer', via: 'get'
   match '/mohssurgery', to: 'derm#mohssurgery', via: 'get'
   match '/acne', to: 'derm#acne', via: 'get'
@@ -11,6 +9,7 @@ Skin::Application.routes.draw do
   match '/laser', to: 'derm#laser', via: 'get'
   match '/products', to: 'derm#products', via: 'get'
   match '/contact', to: 'derm#contact', via: 'get'
+  match '/aboutus', to: 'derm#aboutus', via: 'get'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
