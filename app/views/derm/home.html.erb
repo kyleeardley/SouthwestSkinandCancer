@@ -42,6 +42,7 @@
 
         
        <a class="btn btn-large" href=/contact role="button">SCHEDULE AN APPOINTMENT</a>
+       
     </div>
 </center>
 
@@ -49,18 +50,47 @@
 <center>
  <div id="double">
   <div id="socialmedia">
-   <h5>FOLLOW US ON SOCIAL MEDIA</h5>
-   <%=link_to image_tag("socialmediaicons.jpg"),'https://www.facebook.com/pages/Southwest-Skin-and-Cancer/161492220541050'%> 
+   <h5>FOLLOW US ON FACEBOOK</h5>
+   <%=link_to image_tag("facebookorb.png"),'https://www.facebook.com/pages/Southwest-Skin-and-Cancer/161492220541050'%> 
   </div>
 
      <div id="services">
         <h2>THE MOST ADVANCED SKIN CARE SERVICES</h2>
-        <a class="button1" href=/skincancer role="button">Skin Cancer</a>
-        <a class="button1" href=/mohssurgery role="button">Mohs Surgery</a>
-        <a class="button1" href=/moles role="button">Moles/Warts</a>
-        <a class="button1" href=/acne role="button">Acne</a>
-        <a class="button1" href=/botox role="button">Botox</a>
-        <a class="button1" href=/laser role="button">Laser</a>
+        <div id="bluebuttons1">
+        <%=link_to image_tag("squareblue.png"),skincancer_path%>
+        <h5>Skin Cancer</h5>
+        </div>
+
+        <div id="bluebuttons2">
+        <%=link_to image_tag("squareblue.png"),mohssurgery_path%>
+        <h5>Mohs Surgery</h5>
+        </div>
+
+        <div id="bluebuttons3">
+        <%=link_to image_tag("squareblue.png"),acne_path%>
+        <h5>Acne</h5>
+        </div>
+
+        <div id="bluebuttons4">
+        <%=link_to image_tag("squareblue.png"),moles_path%>
+        <h5>Moles/Warts</h5>
+        </div>
+
+        <div id="bluebuttons5">
+        <%=link_to image_tag("squareblue.png"),laser_path%>
+        <h5>Laser</h5>
+        </div>
+
+        <div id="bluebuttons6">
+        <%=link_to image_tag("squareblue.png"),botox_path%>
+        <h5>Botox</h5>
+        </div>
+
+        <div id="bluebuttons7">
+        <%=link_to image_tag("squareblue.png"),products_path%>
+        <h5>Products</h5>
+        </div>   
+       
         
      </div>
 
