@@ -10,7 +10,7 @@ Skin::Application.routes.draw do
   match '/laserhair', to: 'derm#laserhair', via: 'get'
   match '/products', to: 'derm#products', via: 'get'
   match '/contact', to: 'derm#contact', via: 'get'
-  match '/aboutus', to: 'derm#aboutus', via: 'get'
+  match '/aboutus', to: 'derm#aboutus', via: 'get' 
   match '/locations', to: 'derm#locations', via: 'get'
   match '/moreskin', to: 'derm#moreskin', via: 'get'
   match '/surgical', to: 'derm#surgical', via: 'get'
